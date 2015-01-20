@@ -95,3 +95,6 @@ tidyData    = merge(tidyData,activityType,by='activityId',all.x=TRUE);
 
 # Export the tidyData set 
 write.table(tidyData, './tidyData.txt',row.names=FALSE,sep='\t');
+
+# View the tidyData set
+View(tidyData)
